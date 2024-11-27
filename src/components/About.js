@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <div className='container mt-5'  style={{fontFamily : "sans-serif"}} >
-        <h1>About the <stronger>"NewsMonkey"</stronger> : </h1>
+        <h1>About the <stronger>"PulsePoint News"</stronger> : </h1>
         <h4 className='my-4' style={{fontFamily : "sans-serif"}}>
         In the dynamic landscape of the digital era, access to reliable and timely news has become a paramount necessity. Among the myriad of platforms, one news providing website stands out as a beacon of excellence, catering to the diverse information needs of a global audience. With an unwavering commitment to journalistic integrity, user experience, and innovation, this website has earned its reputation as a premier source for staying informed.<br/>
         First and foremost, what distinguishes this news website is its unwavering dedication to delivering accurate and unbiased news coverage. Every piece of information undergoes rigorous fact-checking processes, ensuring that readers can trust the authenticity of the news presented. The website upholds the principles of responsible journalism, providing a credible source for individuals seeking reliable information in an era rife with misinformation.<br/>

@@ -22,7 +22,7 @@ export default class News extends Component {
       page: 1,
       loading: false
     }
-    document.title = this.capitalizeFirstLetter(this.props.category) + '- NewsMonkey'
+    document.title = this.capitalizeFirstLetter(this.props.category) + '- PulsePoint News'
   }
   scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -92,7 +92,7 @@ export default class News extends Component {
 
     return (
       <>
-        <h4 className='ml-3 mx-2 ' style={{ position: "relative", marginTop: "90px", fontFamily: "sans-serif", fontSize: "50px" }}><strong>NewsMonkey - Get latest updates on {this.capitalizeFirstLetter(this.props.category)} </strong></h4>
+        <h4 className='ml-3 mx-2 ' style={{ position: "relative", marginTop: "90px", fontFamily: "sans-serif", fontSize: "50px" }}><strong> {this.capitalizeFirstLetter(this.props.category)} </strong></h4>
         {this.state.loading && <Spinner />}
         <div className='container my-4' >
           {!this.state.loading && <div className='row'>
